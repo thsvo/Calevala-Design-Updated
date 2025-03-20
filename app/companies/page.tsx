@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar"
 
 export default function Companies() {
   return (
-    <main className="min-h-screen bg-[#090809] text-white">
+    <main className="min-h-screen bg-[#060608] text-white">
       <Navbar />
       
       <div className="flex flex-col lg:flex-row min-h-[calc(100vh-64px)]">
