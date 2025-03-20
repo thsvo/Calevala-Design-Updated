@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar"
 
 export default function Companies() {
   return (
-    <main className="min-h-screen bg-[#060608] text-white">
+    <main className="min-h-screen bg-[#060708] text-white">
       <Navbar />
       
       <div className="flex flex-col lg:flex-row min-h-[calc(100vh-64px)]">
@@ -20,7 +20,7 @@ export default function Companies() {
         </div>
 
         {/* Right side - Content Section */}
-        <div className="w-full lg:w-1/2 p-8 lg:p-16 bg-[#090809]">
+        <div className="w-full lg:w-1/2 p-8 lg:p-16 bg-[#060708]">
           <h1 className="text-2xl md:text-3xl font-bold mb-12 text-green-500">PORTFOLIO OF COMPANIES</h1>
 
           <div className="space-y-12">
