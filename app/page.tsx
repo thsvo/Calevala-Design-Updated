@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#090809] text-white">
+    <main className="flex flex-col min-h-screen bg-[#090809] text-white overflow-hidden">
       <Navbar />
       
       <div className="flex flex-col lg:flex-row min-h-[calc(100vh-64px)] relative lg:pl-20">
